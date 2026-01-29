@@ -1,0 +1,6 @@
+pandas
+numpy
+nltk
+gensim==4.3.0
+scikit-learn
+scipy
