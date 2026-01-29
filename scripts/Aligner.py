@@ -7,7 +7,7 @@ from gensim.models import KeyedVectors
 from scipy.linalg import orthogonal_procrustes
 from sklearn.preprocessing import normalize
 
-class TechNowNet:
+class alinger:
 	def __init__(self, wdir, dim, year_start, year_end=2023):
 		self.wdir = wdir
 		self.dim = dim
@@ -113,5 +113,5 @@ if __name__ == "__main__":
 	parser.add_argument('--year_end', type=int, default=2023)
 	args = parser.parse_args()
 
-	tech_now_net = TechNowNet(args.wdir, args.dim, args.year_start, args.year_end)
-	tech_now_net.run()
+	TechNowNet = alinger(args.wdir, args.dim, args.year_start, args.year_end)
+	TechNowNet.run()
