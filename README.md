@@ -21,6 +21,7 @@ TechNowNet/
 │   ├── train.py                     # FastText domain-specific training
 │   └── Aligner.py                   # OPA-based cross-domain fusion (TechNowNet)
 ├── main.py                          # Integrated execution script
+├── setup.py                         # Setup for TechNowNet
 ├── requirements.txt                 # Required library list
 └── README.md                        # Project documentation
 ```
