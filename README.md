@@ -64,7 +64,17 @@ Uses an **extended Orthogonal Procrustes Analysis (OPA)** to align multiple embe
 * NLTK
 * Scipy & Scikit-learn
 
-## Citation
+## Citation (BibTeX)
+If you use `TechNowNet` in your research, please cite [TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion](https://github.com/lee-ju/TechNowNet).
+
 ```text
-Lee, J., Lim, J., & Yang, H. (2026+). TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion, _Under Review_.
+@inproceedings{Lee2026TechNowNet,
+  title={TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion},
+  author={Lee, Juhyun and Lim, Jitaek and Yang, Heyoung},
+  affiliation={Korea Institute of Science and Technology Information},
+  year={2026+},
+  journal={Under Review},
+  publisher={...},
+  url={https://github.com/lee-ju/TechNowNet},
+}
 ```
