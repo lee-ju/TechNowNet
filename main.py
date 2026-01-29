@@ -24,4 +24,4 @@ if __name__ == "__main__":
         run_script(["python", "train.py", "--db", db, "--year_start", str(YEAR_START), "--year_end", str(YEAR_END), "--wdir", WDIR, "--vector_size", "100"])
 
     # 4. Cross-domain Alignment (created by TechNowNet)
-    run_script(["python", "TechNowNet.py", "--year_start", str(YEAR_START), "--year_end", str(YEAR_END), "--wdir", WDIR, "--dim", "100"])
+    run_script(["python", "Aligner.py", "--year_start", str(YEAR_START), "--year_end", str(YEAR_END), "--wdir", WDIR, "--dim", "100"])
