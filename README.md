@@ -5,7 +5,7 @@ It employs cross-domain embedding fusion to align knowledge from heterogeneous s
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 TechNowNet/
@@ -27,7 +27,7 @@ TechNowNet/
 
 ---
 
-## 🚀 Execution Pipeline
+## Execution Pipeline
 
 TechNowNet processes knowledge through a circular structure of generation, application, and cognition.
 
@@ -51,20 +51,20 @@ Uses an **extended Orthogonal Procrustes Analysis (OPA)** to align multiple embe
 
 ---
 
-## 📈 Key Achievements
+## Key Achievements
 * **Scalability**: Achieved approximately 4.4 times greater term coverage (17.7 million terms) than existing methods.
 * **Quality**: Demonstrated a 7-percentage-point higher performance (**SOTA**) in Technology-Term Relevance (TTR) tasks.
 * **Contemporaneity**: Captures the latest trends in AI, quantum computing, and biotechnology.
 
 ---
 
-## 🛠 Requirements
+## Requirements
 * Python 3.8+
 * Gensim 4.0+
 * NLTK
 * Scipy & Scikit-learn
 
-## 📜 Citation
+## Citation
 ```text
-Lee, J., Lim, J., & Yang, H. (2026). TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion.
+Lee, J., Lim, J., & Yang, H. (2026+). TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion, _Under Review_.
 ```
