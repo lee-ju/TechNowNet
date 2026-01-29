@@ -16,9 +16,10 @@ TechNowNet/
 │   ├── prep-technology.py           # Patent data preprocessing
 │   ├── prep-science.py              # Scopus data preprocessing
 │   ├── prep-market-and-society.py   # Market-and-society data preprocessing
+│   ├── utils.py                     # Utility for preprocessing
 │   ├── docu.py                      # Training corpus (.docu) generation
 │   ├── train.py                     # FastText domain-specific training
-│   └── TechNowNet.py                # OPA-based cross-domain fusion
+│   └── Aligner.py                   # OPA-based cross-domain fusion (TechNowNet)
 ├── main.py                          # Integrated execution script
 ├── requirements.txt                 # Required library list
 └── README.md                        # Project documentation
@@ -28,7 +29,7 @@ TechNowNet/
 
 ## 🚀 Execution Pipeline
 
-TechNowNet processes knowledge through a circular structure of generation, application, and cognition [cite: 656].
+TechNowNet processes knowledge through a circular structure of generation, application, and cognition.
 
 ### 1. Preprocessing (`prep-*.py`)
 Extracts and cleans terms from specific domains for the period 2019-2023
@@ -43,7 +44,7 @@ Converts `.lem` files into `.docu` format suitable for large-scale embedding tra
 Trains independent **FastText** models for each domain to preserve morphological and subword information.
 * Independent training maximizes the retention of domain-specific uniqueness.
 
-### 4. Cross-domain Fusion (`TechNowNet.py`)
+### 4. Cross-domain Fusion (`Aligner.py`)
 Uses an **extended Orthogonal Procrustes Analysis (OPA)** to align multiple embedding spaces.
 * **Shared Knowledge Fusion**: Aligns shared term matrices towards a mean matrix.
 * **Domain-specific Alignment**: Positions unique terms within the fused space while preserving their specialized features.
