@@ -1,4 +1,4 @@
-# TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network
+# [TechNowNet](doi.org/10.1016/j.aei.2026.105381): A Contemporary Multi-Domain Knowledge Semantic Network
 
 TechNowNet is a multi-domain semantic network designed to integrate science, technology, and market-and-society knowledge.
 It employs cross-domain embedding fusion to align knowledge from heterogeneous sources (Scopus, PATSTAT, NewsCatcher) into a single semantic space.
@@ -66,16 +66,16 @@ Uses an **extended Orthogonal Procrustes Analysis (OPA)** to align multiple embe
 * Scipy & Scikit-learn
 
 ## Citation (BibTeX)
-If you use `TechNowNet` in your research, please cite [TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion](https://github.com/lee-ju/TechNowNet).
+If you use `TechNowNet` in your research, please cite [TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion](doi.org/10.1016/j.aei.2026.105381).
 
 ```text
-@inproceedings{Lee2026TechNowNet,
-  title={TechNowNet: A Contemporary Multi-Domain Knowledge Semantic Network through Cross-Domain Embedding Fusion},
+@inproceedings{Lee2027TechNowNet,
+  title={TechNowNet: A contemporary multi-domain knowledge semantic network through cross-domain embedding fusion},
   author={Lee, Juhyun and Lim, Jitaek and Yang, Heyoung},
   affiliation={Korea Institute of Science and Technology Information},
-  year={2026+},
-  journal={Under Review},
-  publisher={...},
-  url={https://github.com/lee-ju/TechNowNet},
+  year={2027},
+  journal={Advanced Engineering Informatics, Keimyung University},
+  publisher={Elsevier},
+  url={10.1016/j.aei.2026.105381},
 }
 ```
